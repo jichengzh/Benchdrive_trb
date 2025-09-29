@@ -75,6 +75,9 @@ class ScenarioManager(object):
         self._statistics_manager = statistics_manager
 
         self.tick_count = 0
+        self._skip_frames = 0
+
+        self._inference_counter = 0 
 
         # Use the callback_id inside the signal handler to allow external interrupts
         signal.signal(signal.SIGINT, self.signal_handler)
@@ -182,11 +185,38 @@ class ScenarioManager(object):
             if self.tick_count > 4000:
                 raise TickRuntimeError("RuntimeError, tick_count > 4000")
 
+            # try:
+            #     self._agent_watchdog.resume()
+            #     self._agent_watchdog.update()
+            #     ego_action, inference_time = self._agent_wrapper()
+            #     self._agent_watchdog.pause()
             try:
-                self._agent_watchdog.resume()
-                self._agent_watchdog.update()
-                ego_action = self._agent_wrapper()
-                self._agent_watchdog.pause()
+                if self._skip_frames == 0:
+                    # 需要新一次推理
+                    self._agent_watchdog.resume()
+                    self._agent_watchdog.update()
+                    ego_action, inf_time = self._agent_wrapper()
+
+                    inf_time = 0.05
+                    
+                    self._agent_watchdog.pause()
+
+                    # 计算 n = inf_time / dt，并更新计数器与当前动作
+                    world_settings = CarlaDataProvider.get_world().get_settings()
+                    dt = world_settings.fixed_delta_seconds or 1.0 / world_settings.frame_rate
+                    n = max(0, int(inf_time / dt))
+                    self._skip_frames = max(0, n - 1)             # 余下帧继续沿用
+                    self._current_action = ego_action
+                    self._inference_counter += 1
+                    if self._inference_counter % 9 == 0:
+                        print('=== [Agent] -- Inference time = {:.3f}s, Skip frames = {}, dt = {}'.format(
+                            inf_time, self._skip_frames, dt), flush=True)
+                else:
+                    # 复用上一次动作，无需推理
+                    ego_action = self._current_action
+                    self._skip_frames -= 1
+                    self._agent_watchdog.pause()
+                    # print('Reuse action, Skip frames = {}'.format(self._skip_frames), flush=True)
 
             # Special exception inside the agent that isn't caused by the agent
             except SensorReceivedNoData as e:

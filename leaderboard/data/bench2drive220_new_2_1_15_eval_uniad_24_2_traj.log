@@ -1,0 +1,394 @@
+/home/ziyuan/Bench2Drive/Bench2DriveZoo/carla/CarlaUE4.sh -RenderOffScreen -nosound -carla-rpc-port=30150 -graphicsadapter=5 None
+4.26.2-0+++UE4+Release-4.26 522 0
+Disabling core dumps.
+load_world success , attempts=0
+traffic_manager init success, try_time=0
+Problem reading checkpoint. Found no data
+
+[1m========= Preparing RouteScenario_24224 (repetition 0) =========[0m
+[1m> Loading the world[0m
+[1m> Setting up the agent[0m
+[Energy] Idle power consumption: 24790.000 mJ in 0.20 s
+load checkpoint from path: /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/ckpts/uniad_base_b2d.pth
+[1m> Running the route[0m
+WARNING: Not all actors were spawned
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_24224 (repetition 0) ------ [91mFAILURE[0m [1m=========[0m
+
+╒═══════════════════════╤═════════════════════╕
+│ Start Time            │ 2025-09-26 09:23:45 │
+├───────────────────────┼─────────────────────┤
+│ End Time              │ 2025-09-26 09:56:07 │
+├───────────────────────┼─────────────────────┤
+│ System Time           │ 1941.48s            │
+├───────────────────────┼─────────────────────┤
+│ Game Time             │ 29.88s              │
+├───────────────────────┼─────────────────────┤
+│ Ratio (Game / System) │ 0.015               │
+╘═══════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %   │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ [92mSUCCESS[0m │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ [91mFAILURE[0m │ 4 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ MinSpeedTest          │ [91mFAILURE[0m │ 75.07 % │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ [92mSUCCESS[0m │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+False
+
+[1m========= Preparing RouteScenario_24240 (repetition 0) =========[0m
+[1m> Loading the world[0m
+[1m> Setting up the agent[0m
+[Energy] Idle power consumption: 34761.000 mJ in 0.20 s
+load checkpoint from path: /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/ckpts/uniad_base_b2d.pth
+[1m> Running the route[0m
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0, dt = 0.041666666666666664

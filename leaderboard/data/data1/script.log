@@ -1,0 +1,18 @@
+nohup: ignoring input
+[32m Directory 7_eval_uniad_0.1_1_b2d_traj already exists. [0m
+****************************[33m Attention [0m ****************************
+[33m Running split_xml.py [0m
+[32m Splitting complete. Flag file created. [0m
+**************[36m Please Manually adjust GPU or TASK_ID [0m **************
+[32m GPU_RANK_LIST: 4 [0m
+[32m TASK_LIST: 0 [0m
+***********************************************************************************
+[32m ALGO: 7_eval_uniad_0.1_1 [0m
+[32m PLANNER_TYPE: traj [0m
+[32m TASK_ID: 0 [0m
+[32m PORT: 30000 [0m
+[32m TM_PORT: 50000 [0m
+[32m CHECKPOINT_ENDPOINT: 7_eval_uniad_0.1_1_b2d_traj/eval_bench2drive220_0.json [0m
+[32m GPU_RANK: 4 [0m
+[32m bash leaderboard/scripts/run_evaluation.sh 30000 50000 True /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/leaderboard/data/bench2drive220_new_1_0_7_eval_uniad_0.1_1_traj.xml /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/leaderboard/scripts/run_evaluation_multi_uniad.sh /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/adzoo/uniad/configs/stage2_e2e/base_e2e_b2d.py+/mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/ckpts/uniad_base_b2d.pth 7_eval_uniad_0.1_1_b2d_traj/eval_bench2drive220_0.json ./7_eval_bench2drive220_7_eval_uniad_0.1_1_traj traj 4 [0m
+***********************************************************************************

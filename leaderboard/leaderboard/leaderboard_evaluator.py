@@ -38,6 +38,7 @@ import subprocess
 import time
 import random
 from datetime import datetime
+import debugpy
 
 sensors_to_icons = {
     'sensor.camera.rgb':        'carla_camera',
@@ -85,13 +86,15 @@ class LeaderboardEvaluator(object):
 
     # Tunable parameters
     client_timeout = 300.0  # in seconds
-    frame_rate = 20.0      # in Hz
+    frame_rate = 24.0      # in Hz
 
     def __init__(self, args, statistics_manager):
         """
         Setup CARLA client and world
         Setup ScenarioManager
         """
+        self.frame_rate = 24
+
         self.world = None
         self.manager = None
         self.sensors = None
@@ -204,7 +207,7 @@ class LeaderboardEvaluator(object):
         self.server = subprocess.Popen(cmd1, shell=True, preexec_fn=os.setsid)
         print(cmd1, self.server.returncode, flush=True)
         atexit.register(os.killpg, self.server.pid, signal.SIGKILL)
-        time.sleep(30)
+        time.sleep(120)
             
         attempts = 0
         num_max_restarts = 20
@@ -214,6 +217,8 @@ class LeaderboardEvaluator(object):
                 if args.timeout:
                     client_timeout = args.timeout
                 client.set_timeout(client_timeout)
+
+                # print(self.frame_rate)
 
                 settings = carla.WorldSettings(
                     synchronous_mode = True,
@@ -561,4 +566,8 @@ def main():
         sys.exit(0)
 
 if __name__ == '__main__':
+    debugpy.listen(12361)
+    print('wait debugger')
+    debugpy.wait_for_client()
+    print("Debugger Attached")
     main()

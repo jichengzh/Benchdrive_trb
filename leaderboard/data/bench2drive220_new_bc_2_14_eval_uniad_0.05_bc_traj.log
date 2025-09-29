@@ -1,0 +1,485 @@
+/home/ziyuan/Bench2Drive/Bench2DriveZoo/carla/CarlaUE4.sh -RenderOffScreen -nosound -carla-rpc-port=30300 -graphicsadapter=7 None
+4.26.2-0+++UE4+Release-4.26 522 0
+Disabling core dumps.
+load_world success , attempts=0
+traffic_manager init success, try_time=0
+Problem reading checkpoint. Found no data
+
+[1m========= Preparing RouteScenario_23659 (repetition 0) =========[0m
+[1m> Loading the world[0m
+[1m> Setting up the agent[0m
+[Energy] Idle power consumption: 23672.000 mJ in 0.20 s
+load checkpoint from path: /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/ckpts/uniad_base_b2d.pth
+[1m> Running the route[0m
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Couldn't find the lane to be removed, '12354*-4' isn't part of the road behavior
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_23659 (repetition 0) ------ [91mFAILURE[0m [1m=========[0m
+
+╒═══════════════════════╤═════════════════════╕
+│ Start Time            │ 2025-09-25 16:07:52 │
+├───────────────────────┼─────────────────────┤
+│ End Time              │ 2025-09-25 16:25:34 │
+├───────────────────────┼─────────────────────┤
+│ System Time           │ 1062.51s            │
+├───────────────────────┼─────────────────────┤
+│ Game Time             │ 21.15s              │
+├───────────────────────┼─────────────────────┤
+│ Ratio (Game / System) │ 0.02                │
+╘═══════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤══════════╕
+│ Criterion             │ Result  │ Value    │
+├───────────────────────┼─────────┼──────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %    │
+├───────────────────────┼─────────┼──────────┤
+│ OutsideRouteLanesTest │ [91mFAILURE[0m │ 7.94 %   │
+├───────────────────────┼─────────┼──────────┤
+│ CollisionTest         │ [91mFAILURE[0m │ 1 times  │
+├───────────────────────┼─────────┼──────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times  │
+├───────────────────────┼─────────┼──────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times  │
+├───────────────────────┼─────────┼──────────┤
+│ MinSpeedTest          │ [91mFAILURE[0m │ 107.09 % │
+├───────────────────────┼─────────┼──────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │          │
+├───────────────────────┼─────────┼──────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │          │
+├───────────────────────┼─────────┼──────────┤
+│ ScenarioTimeoutTest   │ [92mSUCCESS[0m │ 0 times  │
+├───────────────────────┼─────────┼──────────┤
+│ Timeout               │ [92mSUCCESS[0m │          │
+╘═══════════════════════╧═════════╧══════════╛
+
+[1m> Registering the route statistics[0m
+False
+
+[1m========= Preparing RouteScenario_23670 (repetition 0) =========[0m
+[1m> Loading the world[0m
+[1m> Setting up the agent[0m
+[Energy] Idle power consumption: 25697.000 mJ in 0.20 s
+load checkpoint from path: /mnt/disks/nvme0n1/ziyuanpu/Bench2Drive/Bench2DriveZoo/ckpts/uniad_base_b2d.pth
+[1m> Running the route[0m
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Couldn't find the lane to be removed, '1057*-2' isn't part of the road behavior
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=669.575317, y=6004.196289, z=164.655106)
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+=== [Agent] -- Inference time = 0.050s, Skip frames = 0
+CommonUnixCrashHandler: Signal=11
+Engine crash handling finished; re-raising signal 11 for the default handler. Good bye.
+Watchdog exception - Timeout of 601.0 seconds occured
