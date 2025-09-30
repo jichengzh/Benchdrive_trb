@@ -1,0 +1,88 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            23
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_24224_rep0",
+                "scenario_name": "DynamicObjectCrossing_1",
+                "weather_id": "5",
+                "save_name": "RouteScenario_24224_rep0_Town02_DynamicObjectCrossing_1_5_09_26_09_22_12",
+                "status": "Completed",
+                "num_infractions": 24,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.guardrail and id=0 at (x=41.935, y=104.205, z=0.232)",
+                        "Agent collided against object with type=static.guardrail and id=0 at (x=36.885, y=104.215, z=0.217)",
+                        "Agent collided against object with type=static.guardrail and id=0 at (x=31.785, y=104.225, z=0.217)"
+                    ],
+                    "collisions_pedestrian": [
+                        "Agent collided against object with type=walker.pedestrian.0007 and id=138 at (x=105.396, y=105.068, z=0.215)"
+                    ],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 61.99% of the surrounding traffic's one",
+                        "Average speed is 65.59% of the surrounding traffic's one",
+                        "Average speed is 60.5% of the surrounding traffic's one",
+                        "Average speed is 60.92% of the surrounding traffic's one",
+                        "Average speed is 66.97% of the surrounding traffic's one",
+                        "Average speed is 60.84% of the surrounding traffic's one",
+                        "Average speed is 63.81% of the surrounding traffic's one",
+                        "Average speed is 57.27% of the surrounding traffic's one",
+                        "Average speed is 85.89% of the surrounding traffic's one",
+                        "Average speed is 96.67% of the surrounding traffic's one",
+                        "Average speed is 97.32% of the surrounding traffic's one",
+                        "Average speed is 84.51% of the surrounding traffic's one",
+                        "Average speed is 76.76% of the surrounding traffic's one",
+                        "Average speed is 84.79% of the surrounding traffic's one",
+                        "Average speed is 112.42% of the surrounding traffic's one",
+                        "Average speed is 80.94% of the surrounding traffic's one",
+                        "Average speed is 89.7% of the surrounding traffic's one",
+                        "Average speed is 54.67% of the surrounding traffic's one",
+                        "Average speed is 69.9% of the surrounding traffic's one",
+                        "Average speed is 69.9% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.137313,
+                    "score_composed": 13.73125
+                },
+                "meta": {
+                    "route_length": 132.067,
+                    "duration_game": 29.875,
+                    "duration_system": 1941.48
+                },
+                "town_name": "Town02"
+            }
+        ]
+    },
+    "entry_status": "Started",
+    "eligible": false,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_camera"
+    ],
+    "values": [],
+    "labels": []
+}

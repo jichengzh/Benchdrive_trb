@@ -1,0 +1,1035 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            20,
+            24
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_25300_rep0",
+                "scenario_name": "HazardAtSideLane_1",
+                "weather_id": "26",
+                "save_name": "RouteScenario_25300_rep0_Town04_HazardAtSideLane_1_26_08_31_18_04_11",
+                "status": "Completed",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.diamondback.century and id=148 at (x=-515.289, y=107.124, z=-0.005)",
+                        "Agent collided against object with type=vehicle.diamondback.century and id=149 at (x=-514.654, y=115.241, z=-0.006)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 75.19% of the surrounding traffic's one",
+                        "Average speed is 70.15% of the surrounding traffic's one",
+                        "Average speed is 77.63% of the surrounding traffic's one",
+                        "Average speed is 69.29% of the surrounding traffic's one",
+                        "Average speed is 74.08% of the surrounding traffic's one",
+                        "Average speed is 69.29% of the surrounding traffic's one",
+                        "Average speed is 75.05% of the surrounding traffic's one",
+                        "Average speed is 79.3% of the surrounding traffic's one",
+                        "Average speed is 71.82% of the surrounding traffic's one",
+                        "Average speed is 71.17% of the surrounding traffic's one",
+                        "Average speed is 59.41% of the surrounding traffic's one",
+                        "Average speed is 69.25% of the surrounding traffic's one",
+                        "Average speed is 44.59% of the surrounding traffic's one",
+                        "Average speed is 55.3% of the surrounding traffic's one",
+                        "Average speed is 27.28% of the surrounding traffic's one",
+                        "Average speed is 19.89% of the surrounding traffic's one",
+                        "Average speed is 20.95% of the surrounding traffic's one",
+                        "Average speed is 62.93% of the surrounding traffic's one",
+                        "Average speed is 62.93% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.36,
+                    "score_composed": 36.0
+                },
+                "meta": {
+                    "route_length": 154.587,
+                    "duration_game": 44.75,
+                    "duration_system": 353.013
+                },
+                "town_name": "Town04"
+            },
+            {
+                "index": 1,
+                "route_id": "RouteScenario_25318_rep0",
+                "scenario_name": "ParkedObstacle_1",
+                "weather_id": "20",
+                "save_name": "RouteScenario_25318_rep0_Town05_ParkedObstacle_1_20_08_31_18_10_20",
+                "status": "Completed",
+                "num_infractions": 20,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=367 at (x=117.731, y=206.946, z=-0.006)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 27.161 meters (19.29% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 65.13% of the surrounding traffic's one",
+                        "Average speed is 78.69% of the surrounding traffic's one",
+                        "Average speed is 70.56% of the surrounding traffic's one",
+                        "Average speed is 44.71% of the surrounding traffic's one",
+                        "Average speed is 56.52% of the surrounding traffic's one",
+                        "Average speed is 24.92% of the surrounding traffic's one",
+                        "Average speed is 51.46% of the surrounding traffic's one",
+                        "Average speed is 81.97% of the surrounding traffic's one",
+                        "Average speed is 61.96% of the surrounding traffic's one",
+                        "Average speed is 52.32% of the surrounding traffic's one",
+                        "Average speed is 44.44% of the surrounding traffic's one",
+                        "Average speed is 70.81% of the surrounding traffic's one",
+                        "Average speed is 74.58% of the surrounding traffic's one",
+                        "Average speed is 61.85% of the surrounding traffic's one",
+                        "Average speed is 68.23% of the surrounding traffic's one",
+                        "Average speed is 79.56% of the surrounding traffic's one",
+                        "Average speed is 68.65% of the surrounding traffic's one",
+                        "Average speed is 68.65% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.484267,
+                    "score_composed": 48.426729
+                },
+                "meta": {
+                    "route_length": 141.901,
+                    "duration_game": 39.3,
+                    "duration_system": 518.083
+                },
+                "town_name": "Town05"
+            },
+            {
+                "index": 2,
+                "route_id": "RouteScenario_25358_rep0",
+                "scenario_name": "StaticCutIn_1",
+                "weather_id": "12",
+                "save_name": "RouteScenario_25358_rep0_Town06_StaticCutIn_1_12_08_31_18_19_14",
+                "status": "Completed",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.tt and id=556 at (x=-292.877, y=135.848, z=-0.006)",
+                        "Agent collided against object with type=vehicle.ford.mustang and id=559 at (x=-311.213, y=120.387, z=-0.005)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 70.53% of the surrounding traffic's one",
+                        "Average speed is 44.3% of the surrounding traffic's one",
+                        "Average speed is 96.66% of the surrounding traffic's one",
+                        "Average speed is 91.48% of the surrounding traffic's one",
+                        "Average speed is 70.14% of the surrounding traffic's one",
+                        "Average speed is 118.47% of the surrounding traffic's one",
+                        "Average speed is 82.32% of the surrounding traffic's one",
+                        "Average speed is 90.61% of the surrounding traffic's one",
+                        "Average speed is 71.81% of the surrounding traffic's one",
+                        "Average speed is 55.91% of the surrounding traffic's one",
+                        "Average speed is 45.23% of the surrounding traffic's one",
+                        "Average speed is 46.53% of the surrounding traffic's one",
+                        "Average speed is 85.8% of the surrounding traffic's one",
+                        "Average speed is 71.8% of the surrounding traffic's one",
+                        "Average speed is 70.48% of the surrounding traffic's one",
+                        "Average speed is 66.59% of the surrounding traffic's one",
+                        "Average speed is 66.95% of the surrounding traffic's one",
+                        "Average speed is 68.59% of the surrounding traffic's one",
+                        "Average speed is 68.59% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.36,
+                    "score_composed": 36.0
+                },
+                "meta": {
+                    "route_length": 138.239,
+                    "duration_game": 35.85,
+                    "duration_system": 468.808
+                },
+                "town_name": "Town06"
+            },
+            {
+                "index": 3,
+                "route_id": "RouteScenario_25378_rep0",
+                "scenario_name": "YieldToEmergencyVehicle_1",
+                "weather_id": "9",
+                "save_name": "RouteScenario_25378_rep0_Town03_YieldToEmergencyVehicle_1_9_08_31_18_27_14",
+                "status": "Completed",
+                "num_infractions": 20,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 93.3% of the surrounding traffic's one",
+                        "Average speed is 73.46% of the surrounding traffic's one",
+                        "Average speed is 60.75% of the surrounding traffic's one",
+                        "Average speed is 66.29% of the surrounding traffic's one",
+                        "Average speed is 54.74% of the surrounding traffic's one",
+                        "Average speed is 60.62% of the surrounding traffic's one",
+                        "Average speed is 41.12% of the surrounding traffic's one",
+                        "Average speed is 67.07% of the surrounding traffic's one",
+                        "Average speed is 57.13% of the surrounding traffic's one",
+                        "Average speed is 58.12% of the surrounding traffic's one",
+                        "Average speed is 50.12% of the surrounding traffic's one",
+                        "Average speed is 63.9% of the surrounding traffic's one",
+                        "Average speed is 62.64% of the surrounding traffic's one",
+                        "Average speed is 68.92% of the surrounding traffic's one",
+                        "Average speed is 39.24% of the surrounding traffic's one",
+                        "Average speed is 80.92% of the surrounding traffic's one",
+                        "Average speed is 62.04% of the surrounding traffic's one",
+                        "Average speed is 75.33% of the surrounding traffic's one",
+                        "Average speed is 75.33% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [
+                        "Agent failed to yield to an emergency vehicle"
+                    ],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.7,
+                    "score_composed": 70.0
+                },
+                "meta": {
+                    "route_length": 95.145,
+                    "duration_game": 23.0,
+                    "duration_system": 266.77
+                },
+                "town_name": "Town03"
+            },
+            {
+                "index": 4,
+                "route_id": "RouteScenario_25381_rep0",
+                "scenario_name": "HazardAtSideLane_1",
+                "weather_id": "12",
+                "save_name": "RouteScenario_25381_rep0_Town05_HazardAtSideLane_1_12_08_31_18_31_54",
+                "status": "Completed",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 42.036 meters (31.52% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 65.2% of the surrounding traffic's one",
+                        "Average speed is 79.77% of the surrounding traffic's one",
+                        "Average speed is 60.12% of the surrounding traffic's one",
+                        "Average speed is 64.4% of the surrounding traffic's one",
+                        "Average speed is 56.48% of the surrounding traffic's one",
+                        "Average speed is 69.32% of the surrounding traffic's one",
+                        "Average speed is 39.8% of the surrounding traffic's one",
+                        "Average speed is 63.9% of the surrounding traffic's one",
+                        "Average speed is 76.4% of the surrounding traffic's one",
+                        "Average speed is 36.38% of the surrounding traffic's one",
+                        "Average speed is 55.36% of the surrounding traffic's one",
+                        "Average speed is 67.81% of the surrounding traffic's one",
+                        "Average speed is 67.43% of the surrounding traffic's one",
+                        "Average speed is 64.45% of the surrounding traffic's one",
+                        "Average speed is 76.93% of the surrounding traffic's one",
+                        "Average speed is 65.67% of the surrounding traffic's one",
+                        "Average speed is 76.47% of the surrounding traffic's one",
+                        "Average speed is 60.89% of the surrounding traffic's one",
+                        "Average speed is 43.35% of the surrounding traffic's one",
+                        "Average speed is 43.35% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.6848,
+                    "score_composed": 68.480021
+                },
+                "meta": {
+                    "route_length": 134.452,
+                    "duration_game": 35.35,
+                    "duration_system": 472.588
+                },
+                "town_name": "Town05"
+            },
+            {
+                "index": 5,
+                "route_id": "RouteScenario_25383_rep0",
+                "scenario_name": "ParkedObstacle_1",
+                "weather_id": "14",
+                "save_name": "RouteScenario_25383_rep0_Town15_ParkedObstacle_1_14_08_31_18_39_58",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 7,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2020 and id=1077 at (x=1047.794, y=632.747, z=120.549)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 62.87% of the surrounding traffic's one",
+                        "Average speed is 82.95% of the surrounding traffic's one",
+                        "Average speed is 86.3% of the surrounding traffic's one",
+                        "Average speed is 78.32% of the surrounding traffic's one",
+                        "Average speed is 42.25% of the surrounding traffic's one",
+                        "Average speed is 3.25% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 36.26,
+                    "score_penalty": 0.6,
+                    "score_composed": 21.756
+                },
+                "meta": {
+                    "route_length": 137.712,
+                    "duration_game": 200.05,
+                    "duration_system": 3533.028
+                },
+                "town_name": "Town15"
+            },
+            {
+                "index": 6,
+                "route_id": "RouteScenario_25424_rep0",
+                "scenario_name": "ConstructionObstacleTwoWays_1",
+                "weather_id": "9",
+                "save_name": "RouteScenario_25424_rep0_Town11_ConstructionObstacleTwoWays_1_9_08_31_19_39_09",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 34.79% of the surrounding traffic's one",
+                        "Average speed is 51.55% of the surrounding traffic's one",
+                        "Average speed is 27.32% of the surrounding traffic's one",
+                        "Average speed is 33.32% of the surrounding traffic's one",
+                        "Average speed is 34.21% of the surrounding traffic's one",
+                        "Average speed is 31.9% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 37.83,
+                    "score_penalty": 1.0,
+                    "score_composed": 37.83
+                },
+                "meta": {
+                    "route_length": 106.064,
+                    "duration_game": 200.05,
+                    "duration_system": 1448.43
+                },
+                "town_name": "Town11"
+            },
+            {
+                "index": 7,
+                "route_id": "RouteScenario_25439_rep0",
+                "scenario_name": "HazardAtSideLane_1",
+                "weather_id": "0",
+                "save_name": "RouteScenario_25439_rep0_Town15_HazardAtSideLane_1_0_08_31_20_03_44",
+                "status": "Completed",
+                "num_infractions": 20,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.vegetation and id=0 at (x=1048.21, y=582.594, z=120.962)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 9.55 meters (7.47% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 82.52% of the surrounding traffic's one",
+                        "Average speed is 78.46% of the surrounding traffic's one",
+                        "Average speed is 82.91% of the surrounding traffic's one",
+                        "Average speed is 82.06% of the surrounding traffic's one",
+                        "Average speed is 79.5% of the surrounding traffic's one",
+                        "Average speed is 73.91% of the surrounding traffic's one",
+                        "Average speed is 79.58% of the surrounding traffic's one",
+                        "Average speed is 59.53% of the surrounding traffic's one",
+                        "Average speed is 41.82% of the surrounding traffic's one",
+                        "Average speed is 35.56% of the surrounding traffic's one",
+                        "Average speed is 29.69% of the surrounding traffic's one",
+                        "Average speed is 48.8% of the surrounding traffic's one",
+                        "Average speed is 111.89% of the surrounding traffic's one",
+                        "Average speed is 95.21% of the surrounding traffic's one",
+                        "Average speed is 101.85% of the surrounding traffic's one",
+                        "Average speed is 74.67% of the surrounding traffic's one",
+                        "Average speed is 92.69% of the surrounding traffic's one",
+                        "Average speed is 92.69% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.601415,
+                    "score_composed": 60.141461
+                },
+                "meta": {
+                    "route_length": 127.768,
+                    "duration_game": 38.05,
+                    "duration_system": 350.18
+                },
+                "town_name": "Town15"
+            },
+            {
+                "index": 8,
+                "route_id": "RouteScenario_25845_rep0",
+                "scenario_name": "AccidentTwoWays_1",
+                "weather_id": "18",
+                "save_name": "RouteScenario_25845_rep0_Town15_AccidentTwoWays_1_18_08_31_20_09_51",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 8,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.dodge.charger_police_2020 and id=3392 at (x=122.967, y=-490.714, z=153.759)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 84.01% of the surrounding traffic's one",
+                        "Average speed is 98.64% of the surrounding traffic's one",
+                        "Average speed is 197.27% of the surrounding traffic's one",
+                        "Average speed is 144.13% of the surrounding traffic's one",
+                        "Average speed is 107.62% of the surrounding traffic's one",
+                        "Average speed is 93.43% of the surrounding traffic's one",
+                        "Average speed is 52.56% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 42.89,
+                    "score_penalty": 0.6,
+                    "score_composed": 25.734
+                },
+                "meta": {
+                    "route_length": 105.188,
+                    "duration_game": 200.05,
+                    "duration_system": 2483.988
+                },
+                "town_name": "Town15"
+            },
+            {
+                "index": 9,
+                "route_id": "RouteScenario_25854_rep0",
+                "scenario_name": "HazardAtSideLaneTwoWays_1",
+                "weather_id": "1",
+                "save_name": "RouteScenario_25854_rep0_Town03_HazardAtSideLaneTwoWays_1_1_08_31_20_51_33",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 6,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=3529 at (x=141.502, y=129.011, z=0.433)",
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=3531 at (x=133.459, y=131.938, z=0.391)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 88.46% of the surrounding traffic's one",
+                        "Average speed is 133.36% of the surrounding traffic's one",
+                        "Average speed is 118.58% of the surrounding traffic's one",
+                        "Average speed is 45.7% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 24.76,
+                    "score_penalty": 0.36,
+                    "score_composed": 8.9136
+                },
+                "meta": {
+                    "route_length": 131.365,
+                    "duration_game": 200.05,
+                    "duration_system": 1686.169
+                },
+                "town_name": "Town03"
+            },
+            {
+                "index": 10,
+                "route_id": "RouteScenario_25857_rep0",
+                "scenario_name": "AccidentTwoWays_1",
+                "weather_id": "5",
+                "save_name": "RouteScenario_25857_rep0_Town05_AccidentTwoWays_1_5_08_31_21_19_53",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 9,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.vegetation and id=0 at (x=139.532, y=-134.454, z=0.086)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 99.54% of the surrounding traffic's one",
+                        "Average speed is 143.02% of the surrounding traffic's one",
+                        "Average speed is 125.85% of the surrounding traffic's one",
+                        "Average speed is 115.85% of the surrounding traffic's one",
+                        "Average speed is 97.54% of the surrounding traffic's one",
+                        "Average speed is 52.8% of the surrounding traffic's one",
+                        "Average speed is 28.73% of the surrounding traffic's one",
+                        "Average speed is 312.65% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 51.76,
+                    "score_penalty": 0.65,
+                    "score_composed": 33.644
+                },
+                "meta": {
+                    "route_length": 129.43,
+                    "duration_game": 200.05,
+                    "duration_system": 1829.255
+                },
+                "town_name": "Town05"
+            },
+            {
+                "index": 11,
+                "route_id": "RouteScenario_25863_rep0",
+                "scenario_name": "PedestrianCrossing_1",
+                "weather_id": "11",
+                "save_name": "RouteScenario_25863_rep0_Town07_PedestrianCrossing_1_11_08_31_21_50_35",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 216.18% of the surrounding traffic's one",
+                        "Average speed is 1203.5% of the surrounding traffic's one",
+                        "Average speed is 36.05% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=-1.992, y=18.699, z=-0.005)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 20.35,
+                    "score_penalty": 1.0,
+                    "score_composed": 20.35
+                },
+                "meta": {
+                    "route_length": 84.134,
+                    "duration_game": 68.25,
+                    "duration_system": 775.64
+                },
+                "town_name": "Town07"
+            },
+            {
+                "index": 12,
+                "route_id": "RouteScenario_25865_rep0",
+                "scenario_name": "ParkedObstacleTwoWays_1",
+                "weather_id": "13",
+                "save_name": "RouteScenario_25865_rep0_Town11_ParkedObstacleTwoWays_1_13_08_31_22_03_41",
+                "status": "Failed - TickRuntime",
+                "num_infractions": 9,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.crown and id=5608 at (x=7534.08, y=-2278.799, z=53.621)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 83.08% of the surrounding traffic's one",
+                        "Average speed is 87.44% of the surrounding traffic's one",
+                        "Average speed is 116.19% of the surrounding traffic's one",
+                        "Average speed is 69.67% of the surrounding traffic's one",
+                        "Average speed is 74.36% of the surrounding traffic's one",
+                        "Average speed is 71.56% of the surrounding traffic's one",
+                        "Average speed is 67.92% of the surrounding traffic's one",
+                        "Average speed is 21.23% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 49.48,
+                    "score_penalty": 0.6,
+                    "score_composed": 29.688
+                },
+                "meta": {
+                    "route_length": 101.185,
+                    "duration_game": 200.05,
+                    "duration_system": 1426.988
+                },
+                "town_name": "Town11"
+            },
+            {
+                "index": 13,
+                "route_id": "RouteScenario_25896_rep0",
+                "scenario_name": "ParkedObstacleTwoWays_1",
+                "weather_id": "23",
+                "save_name": "RouteScenario_25896_rep0_Town03_ParkedObstacleTwoWays_1_23_08_31_22_27_54",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 22,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.vegetation and id=0 at (x=45.522, y=119.577, z=0.237)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=5744 at (x=137.275, y=133.297, z=0.412)",
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2020 and id=5747 at (x=118.877, y=135.338, z=0.295)",
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=5730 at (x=114.083, y=130.985, z=0.262)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 20.362 meters (16.92% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 82.32% of the surrounding traffic's one",
+                        "Average speed is 123.5% of the surrounding traffic's one",
+                        "Average speed is 139.02% of the surrounding traffic's one",
+                        "Average speed is 70.42% of the surrounding traffic's one",
+                        "Average speed is 59.16% of the surrounding traffic's one",
+                        "Average speed is 120.02% of the surrounding traffic's one",
+                        "Average speed is 70.72% of the surrounding traffic's one",
+                        "Average speed is 51.59% of the surrounding traffic's one",
+                        "Average speed is 424.84% of the surrounding traffic's one",
+                        "Average speed is 391.11% of the surrounding traffic's one",
+                        "Average speed is 405.24% of the surrounding traffic's one",
+                        "Average speed is 395.0% of the surrounding traffic's one",
+                        "Average speed is 458.67% of the surrounding traffic's one",
+                        "Average speed is 338.56% of the surrounding traffic's one",
+                        "Average speed is 5083.2% of the surrounding traffic's one",
+                        "Average speed is 400.11% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=45.473, y=119.006, z=0.249)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 91.63,
+                    "score_penalty": 0.116648,
+                    "score_composed": 10.688484
+                },
+                "meta": {
+                    "route_length": 131.365,
+                    "duration_game": 168.85,
+                    "duration_system": 1963.247
+                },
+                "town_name": "Town03"
+            },
+            {
+                "index": 14,
+                "route_id": "RouteScenario_25928_rep0",
+                "scenario_name": "VehicleOpensDoorTwoWays_1",
+                "weather_id": "7",
+                "save_name": "RouteScenario_25928_rep0_Town11_VehicleOpensDoorTwoWays_1_7_08_31_23_00_53",
+                "status": "Completed",
+                "num_infractions": 19,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.crown and id=7494 at (x=7651.167, y=-2432.166, z=52.232)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 53.22% of the surrounding traffic's one",
+                        "Average speed is 45.96% of the surrounding traffic's one",
+                        "Average speed is 65.14% of the surrounding traffic's one",
+                        "Average speed is 58.07% of the surrounding traffic's one",
+                        "Average speed is 82.66% of the surrounding traffic's one",
+                        "Average speed is 69.3% of the surrounding traffic's one",
+                        "Average speed is 85.34% of the surrounding traffic's one",
+                        "Average speed is 71.26% of the surrounding traffic's one",
+                        "Average speed is 62.35% of the surrounding traffic's one",
+                        "Average speed is 54.07% of the surrounding traffic's one",
+                        "Average speed is 101.91% of the surrounding traffic's one",
+                        "Average speed is 102.95% of the surrounding traffic's one",
+                        "Average speed is 99.55% of the surrounding traffic's one",
+                        "Average speed is 107.27% of the surrounding traffic's one",
+                        "Average speed is 144.34% of the surrounding traffic's one",
+                        "Average speed is 169.74% of the surrounding traffic's one",
+                        "Average speed is 141.64% of the surrounding traffic's one",
+                        "Average speed is 141.64% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.6,
+                    "score_composed": 60.0
+                },
+                "meta": {
+                    "route_length": 100.088,
+                    "duration_game": 35.65,
+                    "duration_system": 215.845
+                },
+                "town_name": "Town11"
+            },
+            {
+                "index": 15,
+                "route_id": "RouteScenario_25951_rep0",
+                "scenario_name": "HazardAtSideLaneTwoWays_1",
+                "weather_id": "7",
+                "save_name": "RouteScenario_25951_rep0_Town04_HazardAtSideLaneTwoWays_1_7_08_31_23_04_53",
+                "status": "Completed",
+                "num_infractions": 20,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 74.79% of the surrounding traffic's one",
+                        "Average speed is 105.03% of the surrounding traffic's one",
+                        "Average speed is 119.58% of the surrounding traffic's one",
+                        "Average speed is 105.72% of the surrounding traffic's one",
+                        "Average speed is 102.27% of the surrounding traffic's one",
+                        "Average speed is 86.42% of the surrounding traffic's one",
+                        "Average speed is 106.6% of the surrounding traffic's one",
+                        "Average speed is 97.18% of the surrounding traffic's one",
+                        "Average speed is 112.7% of the surrounding traffic's one",
+                        "Average speed is 86.03% of the surrounding traffic's one",
+                        "Average speed is 101.74% of the surrounding traffic's one",
+                        "Average speed is 109.23% of the surrounding traffic's one",
+                        "Average speed is 148.2% of the surrounding traffic's one",
+                        "Average speed is 128.17% of the surrounding traffic's one",
+                        "Average speed is 165.73% of the surrounding traffic's one",
+                        "Average speed is 220.12% of the surrounding traffic's one",
+                        "Average speed is 342.98% of the surrounding traffic's one",
+                        "Average speed is 384.43% of the surrounding traffic's one",
+                        "Average speed is 227.22% of the surrounding traffic's one",
+                        "Average speed is 227.22% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 1.0,
+                    "score_composed": 100.0
+                },
+                "meta": {
+                    "route_length": 135.263,
+                    "duration_game": 35.0,
+                    "duration_system": 289.722
+                },
+                "town_name": "Town04"
+            },
+            {
+                "index": 16,
+                "route_id": "RouteScenario_25955_rep0",
+                "scenario_name": "HazardAtSideLaneTwoWays_1",
+                "weather_id": "11",
+                "save_name": "RouteScenario_25955_rep0_Town05_HazardAtSideLaneTwoWays_1_11_08_31_23_09_54",
+                "status": "Completed",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.gazelle.omafiets and id=7775 at (x=109.326, y=-145.305, z=0.034)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 96.35% of the surrounding traffic's one",
+                        "Average speed is 151.59% of the surrounding traffic's one",
+                        "Average speed is 110.12% of the surrounding traffic's one",
+                        "Average speed is 109.05% of the surrounding traffic's one",
+                        "Average speed is 99.99% of the surrounding traffic's one",
+                        "Average speed is 93.75% of the surrounding traffic's one",
+                        "Average speed is 96.63% of the surrounding traffic's one",
+                        "Average speed is 58.15% of the surrounding traffic's one",
+                        "Average speed is 139.5% of the surrounding traffic's one",
+                        "Average speed is 150.04% of the surrounding traffic's one",
+                        "Average speed is 132.61% of the surrounding traffic's one",
+                        "Average speed is 140.92% of the surrounding traffic's one",
+                        "Average speed is 148.76% of the surrounding traffic's one",
+                        "Average speed is 150.54% of the surrounding traffic's one",
+                        "Average speed is 182.23% of the surrounding traffic's one",
+                        "Average speed is 233.33% of the surrounding traffic's one",
+                        "Average speed is 232.15% of the surrounding traffic's one",
+                        "Average speed is 455.68% of the surrounding traffic's one",
+                        "Average speed is 490.22% of the surrounding traffic's one",
+                        "Average speed is 490.22% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.6,
+                    "score_composed": 60.0
+                },
+                "meta": {
+                    "route_length": 135.532,
+                    "duration_game": 30.6,
+                    "duration_system": 335.708
+                },
+                "town_name": "Town05"
+            },
+            {
+                "index": 17,
+                "route_id": "RouteScenario_25968_rep0",
+                "scenario_name": "VanillaSignalizedTurnEncounterGreenLight_1",
+                "weather_id": "0",
+                "save_name": "RouteScenario_25968_rep0_Town07_VanillaSignalizedTurnEncounterGreenLight_1_0_08_31_23_15_41",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 11,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.tt and id=7921 at (x=8.655, y=-3.033, z=0.022)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 9.28 meters (34.37% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 83.44% of the surrounding traffic's one",
+                        "Average speed is 53.46% of the surrounding traffic's one",
+                        "Average speed is 135.08% of the surrounding traffic's one",
+                        "Average speed is 148.66% of the surrounding traffic's one",
+                        "Average speed is 121.01% of the surrounding traffic's one",
+                        "Average speed is 110.13% of the surrounding traffic's one",
+                        "Average speed is 129.37% of the surrounding traffic's one",
+                        "Average speed is 175.92% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=8.606, y=-3.776, z=0.022)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 48.64,
+                    "score_penalty": 0.393757,
+                    "score_composed": 19.152362
+                },
+                "meta": {
+                    "route_length": 55.5,
+                    "duration_game": 74.05,
+                    "duration_system": 522.241
+                },
+                "town_name": "Town07"
+            },
+            {
+                "index": 18,
+                "route_id": "RouteScenario_25975_rep0",
+                "scenario_name": "VanillaSignalizedTurnEncounterGreenLight_1",
+                "weather_id": "8",
+                "save_name": "RouteScenario_25975_rep0_Town07_VanillaSignalizedTurnEncounterGreenLight_1_8_08_31_23_24_35",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 1,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=-101.611, y=72.625, z=0.448)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 0.0,
+                    "score_penalty": 1.0,
+                    "score_composed": 0.0
+                },
+                "meta": {
+                    "route_length": 52.291,
+                    "duration_game": 60.05,
+                    "duration_system": 802.131
+                },
+                "town_name": "Town07"
+            },
+            {
+                "index": 19,
+                "route_id": "RouteScenario_26396_rep0",
+                "scenario_name": "StaticCutIn_1",
+                "weather_id": "15",
+                "save_name": "RouteScenario_26396_rep0_Town05_StaticCutIn_1_15_08_31_23_38_09",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 17,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.guardrail and id=0 at (x=169.544, y=173.369, z=-0.005)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 57.72% of the surrounding traffic's one",
+                        "Average speed is 72.38% of the surrounding traffic's one",
+                        "Average speed is 73.61% of the surrounding traffic's one",
+                        "Average speed is 85.58% of the surrounding traffic's one",
+                        "Average speed is 80.77% of the surrounding traffic's one",
+                        "Average speed is 82.74% of the surrounding traffic's one",
+                        "Average speed is 100.19% of the surrounding traffic's one",
+                        "Average speed is 72.71% of the surrounding traffic's one",
+                        "Average speed is 58.88% of the surrounding traffic's one",
+                        "Average speed is 75.77% of the surrounding traffic's one",
+                        "Average speed is 28.01% of the surrounding traffic's one",
+                        "Average speed is 24.44% of the surrounding traffic's one",
+                        "Average speed is 59.02% of the surrounding traffic's one",
+                        "Average speed is 66.21% of the surrounding traffic's one",
+                        "Average speed is 60.15% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=172.401, y=171.464, z=-0.002)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 83.41,
+                    "score_penalty": 0.65,
+                    "score_composed": 54.2165
+                },
+                "meta": {
+                    "route_length": 134.874,
+                    "duration_game": 115.95,
+                    "duration_system": 1165.536
+                },
+                "town_name": "Town05"
+            }
+        ]
+    },
+    "entry_status": "Started",
+    "eligible": false,
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_camera"
+    ],
+    "values": [],
+    "labels": []
+}
